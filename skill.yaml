@@ -1,10 +1,10 @@
-name: serpapi_search
+name: serpapi-search  # 把下划线改成连字符
 version: 1.0.0
 description: 使用 SerpApi 进行联网搜索
 author: JY
 
 entry: skill.py
-function: websearch
+function: websearch  # 这个保持正确
 
 parameters:
   - name: query
